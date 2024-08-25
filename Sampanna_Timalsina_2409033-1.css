@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background:transparent;
+    color:white;
+    text-align: left;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+body{
+    
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background:url('https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 500px;
+    padding:7px;
+    border-radius: 15px; 
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow:  0 0 10px 5px black;
+   
+}
+.search {
+    position: relative;
+    width: 590px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.search i {
+    position: absolute;
+    background: transparent;
+    color: white;
+    left: 10px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.search input {
+    border: 2px solid white;
+    border-radius: 10px;
+    outline:none; 
+    padding: 5px; 
+    margin-left: 10px; 
+    width: 100%; 
+    background: transparent; 
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+ #cityInput::placeholder{
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+
+.search button {
+    position:absolute;
+    right:0;
+    width: 50px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+    @media screen and (max-width: 600px) {
+    
+    
+        }
+    
+
+#cityname{
+    color: black;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    top:2cm;
+    font-size: 50px;
+
+}
+
+#temperature{
+    color: white;
+    position: absolute;
+    top:4cm;
+    left:53%;
+    font-size: 55px;
+    transform: translate(-50%);
+    font-family: serif;
+}
+#weatherCondition{
+    color: black;
+    text-transform: capitalize;
+    position: absolute;
+    left:47%;
+    bottom:6.8cm;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#pressure{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    bottom:4cm;
+    left:78%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#windspeed{
+    color: black;
+    position: absolute;
+    bottom: 4cm;
+    left:38%;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#humidity {
+    color: black;
+    position: absolute;
+    bottom: 2.5cm;
+    left: 42%;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#feelsliketemp{
+    color: black;
+    position: absolute;
+    bottom: 4cm;
+    left:5%;
+    font-size: 18px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#country{
+    color: black;
+    position: absolute;
+    bottom:9.2cm;
+    left:49%;
+    font-size: 20px;
+}
+#date{
+    color: black;
+    position: absolute;
+    bottom:6cm;
+    left:41%;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#weathericon {
+    border-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70px; 
+    height: 70px; 
+    margin-top: 20px; 
+    box-shadow:  0 0 5px 5px white;
+    margin-top:-5cm;
+    margin-left: 2cm;
+}
+footer{
+    background:transparent;
+    color:black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: fixed; 
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow:  0 0 10px 5px black;
+
+}
